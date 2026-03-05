@@ -18,7 +18,7 @@ function Reg()
     {
         try{
             //const res=await axios.post("http://localhost:8080/reg",data)
-            const res=await axios.post("https://duck-api.onrender.com/reg",data)
+            const res=await axios.post("https://demo-3-vlk6.onrender.com",data)
             alert(res.data)
         }
         catch(xyz)
