@@ -1,7 +1,7 @@
 #Use official maven image to build the app
 From maven:3.9.6-eclipse-temurin-21 As build
 
-WoORKDIR /app
+WORKDIR /app
 COPY pom.xml
 COPY src ./src
 
